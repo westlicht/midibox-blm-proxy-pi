@@ -1,0 +1,6 @@
+MIDIBOX_BLM_PROXY_VERSION = HEAD
+MIDIBOX_BLM_PROXY_SITE = $(call github,westlicht,midibox-blm-proxy,$(MIDIBOX_BLM_PROXY_VERSION))
+MIDIBOX_BLM_PROXY_INSTALL_TARGET = YES
+#MIDIBOX_BLM_PROXY_DEPENDENCIES = libglib2 host-pkgconf
+
+$(eval $(cmake-package))

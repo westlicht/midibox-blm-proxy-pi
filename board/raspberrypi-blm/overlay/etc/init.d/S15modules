@@ -1,0 +1,5 @@
+modprobe smsc95xx
+modprobe snd-bcm2835
+modprobe snd-usb-audio
+modprobe snd-seq
+
